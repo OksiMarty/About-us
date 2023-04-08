@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  padding: 2rem;
+  font-family: "Carter One", cursive;
+  background-color: #ecfdf5;
+}
+.cardWrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1.5rem;
+}
+
+.cardItem {
+  border: 0.1rem #059669 solid;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+
+.cardInnerWrapper {
+  padding: 1rem;
+}
+
+img {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+}
+
+h1 {
+  text-align: center;
+  color: #059669;
+  font-size: 4rem;
+}
+
+p {
+  color: #737388;
+  text-align: center;
+
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.name {
+  color: #059669;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.description {
+  color: #737388;
+}
+
+ul {
+  list-style: none;
+}
+
+.contacts {
+  padding-top: 1rem;
+}
+
+ul li:first-child {
+  color: #059669;
+  padding-bottom: 0.7rem;
+}
+
+ul li {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  color: #737388;
+}
+
+a {
+  color: #737388;
+}
+a:hover {
+  color: #059669;
+}
