@@ -22,6 +22,13 @@ main {
 
 .cardInnerWrapper {
   padding: 1rem;
+  position: relative;
+  height: 22rem;
+}
+
+.contacts {
+  position: absolute;
+  bottom: 0;
 }
 
 img {
@@ -43,7 +50,6 @@ p {
   text-align: center;
 
   font-size: 1.5rem;
-  padding-bottom: 2rem;
 }
 
 .name {
@@ -61,10 +67,6 @@ ul {
   list-style: none;
 }
 
-.contacts {
-  padding-top: 1rem;
-}
-
 ul li:first-child {
   color: #059669;
   padding-bottom: 0.7rem;
@@ -79,7 +81,21 @@ ul li {
 
 a {
   color: #737388;
+  transition: transform 0.2s linear;
+  display: inline-flex;
+  align-items: center;
+  margin: 0.3rem;
 }
+
 a:hover {
   color: #059669;
+  transform: scale(1.2);
+}
+
+li {
+  display: inline-block;
+}
+
+.email-display {
+  display: none;
 }
