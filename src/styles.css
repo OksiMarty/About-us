@@ -87,6 +87,7 @@ ul li {
   font-size: 0.8rem;
   line-height: 1.5rem;
   color: #737388;
+  margin-bottom: 0.5rem;
 }
 
 a {
@@ -95,6 +96,7 @@ a {
   display: inline-flex;
   align-items: center;
   margin: 0.3rem;
+
   font-size: 1.3rem;
 }
 
@@ -116,7 +118,7 @@ li {
     width: 11rem;
   }
   .cardInnerWrapper {
-    height: 21rem;
+    height: 22rem;
   }
 }
 @media (max-width: 642px) {
