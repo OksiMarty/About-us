@@ -110,3 +110,25 @@ li {
 .email-display {
   display: none;
 }
+@media (max-width: 1024px) {
+  .ava {
+    width: 11rem;
+  }
+  .cardInnerWrapper {
+    height: 21rem;
+  }
+}
+@media (max-width: 642px) {
+  .cardInnerWrapper {
+    height: 18rem;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  p {
+    font-size: 1.1rem;
+  }
+  .ava {
+    width: 14rem;
+  }
+}
