@@ -15,7 +15,7 @@ main {
 }
 
 .cardItem {
-  border: 0.1rem #393e46 solid;
+  box-shadow: 0.2rem 0.2rem 0.2rem #888;
   background-color: white;
   border-radius: 0.5rem;
 }
@@ -31,33 +31,45 @@ main {
   bottom: 0;
 }
 
-img {
+.ava {
   width: 12rem;
-  height: auto;
+
   display: block;
-  margin: 1.5rem auto 0 auto;
-  border-radius: 0.5rem;
+  margin: 1rem auto 0 auto;
+  border-radius: 50%;
+  box-shadow: 0.2rem 0.2rem 0.2rem #888;
 }
 
 h1 {
   text-align: center;
   color: #393e46;
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-family: "Open Sans", sans-serif;
+  padding-bottom: 1rem;
 }
 
 p {
   color: #737388;
   text-align: center;
   padding-bottom: 2rem;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-family: "Open Sans", sans-serif;
 }
 
+.headerInfo {
+  display: flex;
+}
+
+.flag {
+  padding: 1rem;
+
+  display: inline;
+}
 .name {
   color: #393e46;
-  text-align: center;
-  padding: 1rem;
+
+  padding: 1rem 0;
+
   font-size: 1.5rem;
 }
 
@@ -83,6 +95,7 @@ a {
   display: inline-flex;
   align-items: center;
   margin: 0.3rem;
+  font-size: 1rem;
 }
 
 a:hover {
