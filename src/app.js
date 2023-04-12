@@ -14,8 +14,9 @@ document.addEventListener("DOMContentLoaded", function () {
         if (emailDisplayID == emailText) {
           emailDisplay.textContent = emailText;
           emailDisplay.style.display = "block";
-          emailDisplay.style.color = "rgb(57, 62, 70)";
+          emailDisplay.style.color = "rgb(115, 115, 136)";
           emailDisplay.style.fontSize = "0.8rem";
+          emailDisplay.style.marginBottom = "0.5rem";
         }
       }
     });
