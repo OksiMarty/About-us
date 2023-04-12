@@ -95,7 +95,7 @@ a {
   display: inline-flex;
   align-items: center;
   margin: 0.3rem;
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 
 a:hover {
@@ -105,6 +105,7 @@ a:hover {
 
 li {
   display: inline-block;
+  margin-right: 0.5rem;
 }
 
 .email-display {
